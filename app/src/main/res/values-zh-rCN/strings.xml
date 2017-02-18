@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">demo秀</string>
+    <string name="transition">协作动画</string>
+
+    <string name="after_net_refresh">请设置网络后再刷新</string>
+    <string name="no_net">没有网络</string>
+    <string name="introducing_products">产品介绍</string>
+    <string name="base">基本</string>
+    <string name="parameter">规格</string>
+    <string name="summary">参数</string>
+    <string name="nonet_setRefresh">没有网络，请连接网络后点击刷新!</string>
+    <string name="permission_denied">权限被拒绝。您可以依次选择\"设置\" > \"应用\"来修改权限。</string>
+    <string name="fail_nodata">网络异常</string>
+    <string name="nomore_data">已是最新数据</string>
+    <string name="top">已经到顶部了</string>
+    <string name="top_nodata">现在还没有数据!</string>
+
+    <string name="crash_handler">程序异常，即将退出!</string>
+    <string name="product_etails">产品详情</string>
+    <string name="loading">正在加载</string>
+    <string name="input_notrim">您的输入不能为空！</string>
+    <string name="search_nodata">未搜索到该机型！</string>
+    <string name="setting_net">设置</string>
+    <string name="input_key">请输入关键字</string>
+    <string name="cancel">取消</string>
+    <string name="seach_history">搜索历史</string>
+    <string name="search_result">搜索结果</string>
+    <string name="cancel_history">清除搜索历史</string>
+
+</resources>

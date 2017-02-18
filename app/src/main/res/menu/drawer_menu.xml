@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/nav_icon_settings"
+            android:title="百度地图"/>
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@mipmap/nav_icon_settings"
+            android:title="讯飞语音和极光推送"/>
+        <item
+            android:id="@+id/nav_followers"
+            android:icon="@mipmap/nav_icon_settings"
+            android:title="litepal操作数据库"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/nav_icon_settings"
+            android:title="上拉加载"/>
+        <item
+            android:id="@+id/nav_style"
+            android:icon="@mipmap/nav_icon_settings"
+            android:title="跳转第三方应用和流的读写"/>
+        <item
+            android:id="@+id/downorup"
+            android:icon="@mipmap/nav_icon_settings"
+            android:title="延时下载图片可文件断点续传和下载"
+            />
+        <item
+            android:id="@+id/one"
+            android:icon="@mipmap/nav_icon_settings"
+            android:title="1"
+            />
+        <item
+            android:id="@+id/tow"
+            android:icon="@mipmap/nav_icon_settings"
+            android:title="2"
+            />
+        <item
+            android:id="@+id/three"
+            android:icon="@mipmap/nav_icon_settings"
+            android:title="3"
+            />
+        <item
+            android:id="@+id/night"
+            android:icon="@drawable/abc_btn_radio_material"
+            android:title="点击跳转"
+            />
+    </group>
+
+    <item android:title="分享和反馈">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/nav_icon_settings"
+                android:title="分享"/>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@mipmap/nav_icon_settings"
+                android:title="意见反馈"/>
+        </menu>
+    </item>
+
+</menu>

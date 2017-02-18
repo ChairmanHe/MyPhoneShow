@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PhoneShow</string>
+    <!--指定协作动画-->
+    <string name="transition">Collaboration animation</string>
+
+    <string name="after_net_refresh">Please refresh again after setting up network</string>
+    <string name="no_net">There is no Internet</string>
+    <string name="introducing_products"> Product Introduction</string>
+    <string name="base">Basic</string>
+    <string name="parameter">Specification</string>
+    <string name="summary">Parameter</string>
+    <string name="nonet_setRefresh">No network, please connect to the Internet and click refresh</string>
+    <string name="permission_denied">Permission denied. You can change them in Settings > Apps.</string>
+    <string name="nomore_data">No more data</string>
+    <string name="top">Has been to the top</string>
+    <string name="top_nodata">There is no data!</string>
+    <string name="fail_nodata">network anomaly</string>
+
+    <string name="crash_handler">Abnormal program, be about to exit!</string>
+    <string name="product_etails">Product Details</string>
+    <string name="loading">loading</string>
+    <string name="input_notrim">Your input can not be empty</string>
+    <string name="search_nodata">Not to search the plane！</string>
+    <string name="setting_net">setting</string>
+    <string name="input_key">Please enter a search phrase</string>
+    <string name="cancel">cancel</string>
+    <string name="seach_history">Search History</string>
+    <string name="cancel_history">Remove search history</string>
+    <string name="search_result">search_result</string>
+</resources>

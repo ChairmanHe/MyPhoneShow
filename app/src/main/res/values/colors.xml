@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1a237e</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--RefreshLayout-->
+    <color name="refresh_progress_1">#536DFE</color>
+    <color name="refresh_progress_2">#f44336</color>
+    <color name="refresh_progress_3">#FF4081</color>
+    <color name="write">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#e0000000</color>
+    <color name="darkgray">#cccc</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_dan">#FFFAFA</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0a0a0a</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--RefreshLayout-->
+    <color name="refresh_progress_1">#0a0a0a</color>
+    <color name="refresh_progress_2">#0a0a0a</color>
+    <color name="refresh_progress_3">#0a0a0a</color>
+    <color name="write">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#e0000000</color>
+</resources>

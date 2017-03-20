@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>测试H5</title>
+	<style type="text/css">
+   #log_msg{
+   	background-color: rgb(111,222,123);
+   }
+   </style>
+	<script type="text/javascript">
+   function actionFromNative(){
+   	document.getElementById("log_msg").innerHTML+="<br\>Native调用了js函数";
+   }
+   function actionFromNativeWithParam(arg){
+   	 document.getElementById("log_msg").innerHTML +=
+             ("<br\>Native调用了js函数并传递参数："+arg);
+
+   }
+
+	</script>
+</head>
+<body>
+	<p>webview与javascript的交互</p>
+	<div>
+		<button onclick="window.wx.actionFromJs()">点击调用nativity代码</button>
+	</div>
+	<br />
+	<div>
+		<button onclick="window.wx.actionFromJsWithParam('come from Js')">点击调用nativity传递参数</button>
+	</div>
+	<br />
+	<div id="log_msg">调用打印信息</div>
+</body>
+</html>

@@ -97,6 +97,7 @@
         <activity android:name=".ui.activity.PullupActivity"></activity>
         <activity android:name=".ui.activity.SeachActivity"></activity>
         <activity android:name=".ui.activity.DownOrUpActivity"></activity>
+        <activity android:name=".ui.activity.WebviewActivity"></activity>
         <!--百度地图-->
         <service
             android:name="com.baidu.location.f"

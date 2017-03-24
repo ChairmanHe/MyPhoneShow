@@ -66,10 +66,18 @@ public class WebviewActivity extends BaseActivity {
 
             }
         });
+        boolean flag=false;
         //测试打开手闪光灯
         cameraManager = (CameraManager) getSystemService(CAMERA_SERVICE);
         try {
-            cameraManager.setTorchMode("0", true);
+            if(!flag){
+                cameraManager.setTorchMode("0", true);
+                flag=true;
+            }else {
+                cameraManager.setTorchMode("0", false);
+                flag=false;
+            }
+
         } catch (CameraAccessException e) {
             e.printStackTrace();
         }

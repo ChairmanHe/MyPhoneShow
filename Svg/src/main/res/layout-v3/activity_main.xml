@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ff0000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.example.kaiyicky.myapplication.PathView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pathView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:svg="@raw/didi"
+        app:pathColor="@android:color/white"
+        app:pathWidth="5"/>
+    <com.example.kaiyicky.myapplication.PathView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pathView2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:pathColor="@android:color/white"
+        app:svg="@raw/monitor"
+        app:pathWidth="5"/>
+
+</LinearLayout>

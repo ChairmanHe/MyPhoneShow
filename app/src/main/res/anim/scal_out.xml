@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--退出的缩放动画-->
+<!--android:zAdjustment:允许在动画播放期间，调整播放内容在Z轴方向的顺序，normal（0）：正在播放的动画内容保持当前的Z轴顺序，
+top（1）：在动画播放期间，强制把当前播放的内容放到其他内容的上面；-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    android:zAdjustment="top">
+    <scale
+        android:duration="300"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%p"
+        android:pivotY="50%p"
+        android:toXScale=".5"
+        android:toYScale=".5" />
+    <!-- 系统内置的动画持续时间
+    android:duration="@android:integer/config_mediumAnimTime"
+    -->
+    <alpha
+        android:duration="300"
+        android:fromAlpha="1.0"
+        android:toAlpha="0" />
+</set>

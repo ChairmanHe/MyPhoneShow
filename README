@@ -1,0 +1,1 @@
+overridePendingTransition 方法必须在startActivity()或者 finish()方法的后面。

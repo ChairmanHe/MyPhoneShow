@@ -19,6 +19,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -518,5 +519,28 @@ public class MainActivity extends BaseActivity implements IMainActivityView, Pul
     protected void onDestroy() {
         super.onDestroy();
     }
+
+    //连续按两次退出程序
+    private long lastBackTime = 0;
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        // 判断按下的键是否是“返回”键
+        if(keyCode == KeyEvent.KEYCODE_BACK) {
+            // 判断当前时间与上次按“返回”键的时间差是否在1秒之内
+            if(System.currentTimeMillis() - lastBackTime < 1000) {
+                // 返回，且不消费，即让系统按照默认方式处理
+                return super.onKeyDown(keyCode, event);
+            }
+            // 记录下当前按下“返回”键的时间
+            lastBackTime = System.currentTimeMillis();
+            // 提示
+            Toast.makeText(this, "再按一次退出应用程序！", Toast.LENGTH_SHORT).show();
+            // 消费
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+
 
 }
